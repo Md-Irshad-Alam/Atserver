@@ -1,5 +1,5 @@
 const express =require('express')
-const connectDatabase  = require('./database/db')
+const connectDatabase  = require('./Database/db')
 const router = require('./Router/router');
 const cors = require('cors');
 
@@ -13,3 +13,6 @@ app.listen(8080, async(req, res)=>{
     
     console.log("server is live on the http://localhost:8080");
 })
+
+
+
