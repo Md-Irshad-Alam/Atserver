@@ -1,0 +1,76 @@
+[
+    {
+        "_id": "a1253251-838c-4849-954f-2ae1b3bd8ffb",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/auth/login",
+        "url": "http://localhost:8080/auth/login",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-07-09T04:16:32.277Z",
+        "modified": "2023-07-09T04:28:42.058Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n \n  \"email\": \"test6@gmail.com\",\n  \"password\":\"1234567\"\n  \n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "7d7ea581-2345-4bec-bb7c-50502079a866",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/auth/register",
+        "url": "http://localhost:8080/auth/register",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-07-09T04:17:31.142Z",
+        "modified": "2023-07-09T04:28:23.250Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"name\":\"test6\",\n  \"email\": \"test6@gmail.com\",\n  \"password\":\"1234567\"\n  \n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "e4e1a610-90ce-4ef0-90ba-64faff48fd62",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/auth/getAll",
+        "url": "http://localhost:8080/auth/getAll",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-07-09T04:30:59.661Z",
+        "modified": "2023-07-09T04:30:59.661Z",
+        "headers": [],
+        "params": [],
+        "auth": {
+            "type": "bearer",
+            "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGFhMzc2NjhlY2U3MmRhNzczNDI5ZTMiLCJuYW1lIjoidGVzdDYiLCJlbWFpbCI6InRlc3Q2QGdtYWlsLmNvbSIsImlhdCI6MTY4ODg3NjkyMn0.EBZNSvFysm8M-9klDDBMaxOmWi4IFemW_zOG5lo72q0"
+        },
+        "tests": []
+    },
+    {
+        "_id": "ee163007-3459-4db6-b29c-217c9fea575d",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/auth/getuser",
+        "url": "http://localhost:8080/auth/getuser",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-07-09T04:31:12.794Z",
+        "modified": "2023-07-09T04:31:12.794Z",
+        "headers": [],
+        "params": [],
+        "auth": {
+            "type": "bearer",
+            "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGFhMzc2NjhlY2U3MmRhNzczNDI5ZTMiLCJuYW1lIjoidGVzdDYiLCJlbWFpbCI6InRlc3Q2QGdtYWlsLmNvbSIsImlhdCI6MTY4ODg3NjkyMn0.EBZNSvFysm8M-9klDDBMaxOmWi4IFemW_zOG5lo72q0"
+        },
+        "tests": []
+    }
+]

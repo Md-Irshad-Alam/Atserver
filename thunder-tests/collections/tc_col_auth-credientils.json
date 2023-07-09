@@ -1,0 +1,47 @@
+{
+    "_id": "7db2e66c-24c0-40d8-a6fe-0a0870fa555a",
+    "colName": "Auth credientils ",
+    "created": "2023-07-09T04:29:32.451Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9ef57238-4d9d-4c0b-a322-f89f4defc610",
+            "colId": "7db2e66c-24c0-40d8-a6fe-0a0870fa555a",
+            "containerId": "",
+            "name": "Registration ",
+            "url": "http://localhost:8080/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-09T04:29:32.460Z",
+            "modified": "2023-07-09T04:29:32.460Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"test6\",\n  \"email\": \"test6@gmail.com\",\n  \"password\":\"1234567\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8b1a8ac3-1fc4-4c14-9f6e-8fa6f4d2262a",
+            "colId": "7db2e66c-24c0-40d8-a6fe-0a0870fa555a",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:8080/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-07-09T04:29:58.264Z",
+            "modified": "2023-07-09T04:29:58.264Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \n  \"email\": \"test6@gmail.com\",\n  \"password\":\"1234567\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

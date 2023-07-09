@@ -13,9 +13,9 @@ let register=async(req,res)=>{
     try {
         let {name, email, password} = req.body;
         
-        let user = await Dealer.findOne({email})
+        let user = await Dealer.find({email})
         console.log(user)
-        if(user){
+        if(user.length !=0){
             return res.send({error:"user email already registered"})
         }else{
             user = await Dealer.create(req.body)
