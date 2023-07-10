@@ -1,0 +1,32 @@
+{
+    "_id": "c49d7ae6-bfed-45d3-9acd-6083928b82a0",
+    "colName": "Crud opr",
+    "created": "2023-07-10T06:08:19.776Z",
+    "sortNum": 20000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c3d3eb14-db4f-4116-855a-f34c1c318ddd",
+            "colId": "c49d7ae6-bfed-45d3-9acd-6083928b82a0",
+            "containerId": "",
+            "name": "update req",
+            "url": "http://localhost:8080/auth/dealer",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2023-07-10T06:08:19.785Z",
+            "modified": "2023-07-10T06:08:19.785Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \n  \"name\":\"harier\",\n  \"image\":\"test.png \",\n  \"mileage\": \"15 km/l\",\n  \"previous_owners\": 1,\n  \"maintenance_history\":\"reguler\",\n  \"accident_history\": \"no accident \",\n  \"condition\": \"good\",\n  \"kms_on_odometer\":45000,\n  \"major_scratches\":\"false\",\n  \"original_paint\": \"true\",\n  \"accidents_reported\": 0,\n  \"previous_buyers\":2,\n  \"registration_place\": \"jharkhad , godda\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGFhMzc2NjhlY2U3MmRhNzczNDI5ZTMiLCJuYW1lIjoidGVzdDYiLCJlbWFpbCI6InRlc3Q2QGdtYWlsLmNvbSIsImlhdCI6MTY4ODg3NjkyMn0.EBZNSvFysm8M-9klDDBMaxOmWi4IFemW_zOG5lo72q0"
+            },
+            "tests": []
+        }
+    ]
+}

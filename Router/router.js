@@ -31,8 +31,8 @@ router.put('/dealer',middleware, MakeDealer)
 // Market_inventry routes
 
 router.post("/create", validateDealer, createMarketplaceEntry);
-router.put("/update/:id", validateDealer, updateMarketplaceEntryById);
-router.delete("/delete/:id",validateDealer, deleteMarketplaceEntryById)
+router.put("/update/:id",  updateMarketplaceEntryById);
+router.delete("/delete/:id", deleteMarketplaceEntryById)
 router.get("/getAll",validateDealer, getALLMarket)
 router.delete("/multidelete/:id",validateDealer, deleteMultipleMarketplaceEntries)
 

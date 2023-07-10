@@ -67,9 +67,12 @@ const createMarketplaceEntry = async (req, res) => {
 // Controller function to update a marketplace entry by ID
 const updateMarketplaceEntryById = async (req, res) => {
   try {
-    const { id } = req.user._id;
+    const  id = req.params.id;
+    // const id = "64a7b4ba28d38559e2cda0a1"
+    // console.log(id)
     const updateFields = req.body;
-
+    // const post = await MarketplaceInventory.findById(id);
+    // console.log(post)
     const updatedMarketplaceEntry = await MarketplaceInventory.findByIdAndUpdate(
       id,
       updateFields,
@@ -102,7 +105,7 @@ const getALLMarket = async(req,res)=>{
 // Controller function to delete a marketplace entry by ID
 const deleteMarketplaceEntryById = async (req, res) => {
   try {
-    const { id } = req.params;
+    const  id = req.params.id;
 
     const deletedMarketplaceEntry = await MarketplaceInventory.findByIdAndDelete(id);
 

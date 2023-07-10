@@ -17,11 +17,9 @@ async function middleware(req, res, next) {
                 jwt.verify(token, config.Secret_key);
     
                 let user = jwt.decode(token);
-    
                 user = await Dealer.findById(user._id);
     
                 user = user.toJSON();
-                console.log(user)
                 delete user.password;
     
                 // Modify the request object to contain the authenticated user

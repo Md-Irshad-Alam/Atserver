@@ -32,7 +32,7 @@ async function validateDealer(req, res, next) {
         const updatedToken = jwt.sign(dealer.toJSON(), config.Secret_key, { expiresIn: '1h' });
 
         // Modify the request object to contain the authenticated dealer and updated token
-        req.user = dealer.toJSON();
+        req.dealer = dealer.toJSON();
         req.token = updatedToken;
 
         next();

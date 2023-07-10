@@ -14,7 +14,7 @@ let register=async(req,res)=>{
         let {name, email, password} = req.body;
         
         let user = await Dealer.find({email})
-        console.log(user)
+      
         if(user.length !=0){
             return res.send({error:"user email already registered"})
         }else{
@@ -30,6 +30,7 @@ let register=async(req,res)=>{
 
 const login = async(req, res) => {
     try {
+    
         const user  = await Dealer.findOne({email : req.body.email});
 
         if (!user) return res.status(404).send({message: "Invalid Credentials"});
@@ -72,12 +73,14 @@ const MakeDealer = async (req, res) => {
           { isDealer: true },
           { new: true }
         );
-    
+    console.log(updatedDealer)
         if (!updatedDealer) {
           return res.status(404).json({ error: 'Dealer not found' });
         }
     
         if (updatedDealer.isDealer) {
+            let Us =  await Dealer.findById(userId)
+            console.log(Us)
           return res.status(400).json({ error: 'Dealer status is already true' });
         }
     

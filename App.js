@@ -15,7 +15,7 @@ app.listen(8080, async(req, res)=>{
    .then((responce)=>{
     console.log("server is connected with databse ")
    }).catch((error)=>{
-    console.log("server connection is faild ")
+    console.log(`server connection is faild  ${error}` )
    })
       
    

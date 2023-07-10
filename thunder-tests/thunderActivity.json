@@ -46,7 +46,7 @@
         "method": "GET",
         "sortNum": 0,
         "created": "2023-07-09T04:30:59.661Z",
-        "modified": "2023-07-09T04:30:59.661Z",
+        "modified": "2023-07-09T04:42:54.678Z",
         "headers": [],
         "params": [],
         "auth": {
@@ -70,6 +70,24 @@
         "auth": {
             "type": "bearer",
             "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGFhMzc2NjhlY2U3MmRhNzczNDI5ZTMiLCJuYW1lIjoidGVzdDYiLCJlbWFpbCI6InRlc3Q2QGdtYWlsLmNvbSIsImlhdCI6MTY4ODg3NjkyMn0.EBZNSvFysm8M-9klDDBMaxOmWi4IFemW_zOG5lo72q0"
+        },
+        "tests": []
+    },
+    {
+        "_id": "60af073b-a94f-44c2-9609-c553d1c985fc",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/auth/dealer",
+        "url": "http://localhost:8080/auth/delete/64a8dec2806d79c43e26205a",
+        "method": "DELETE",
+        "sortNum": 0,
+        "created": "2023-07-09T04:43:11.655Z",
+        "modified": "2023-07-10T07:20:24.115Z",
+        "headers": [],
+        "params": [],
+        "auth": {
+            "type": "bearer",
+            "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGFhMzc2NjhlY2U3MmRhNzczNDI5ZTMiLCJuYW1lIjoidGVzdDYiLCJlbWFpbCI6InRlc3Q2QGdtYWlsLmNvbSIsImlhdCI6MTY4ODk2OTM2NX0.k9HZQnnQrRTUOsTFySCWnTJ4jyXNq7ZdFIyA_hUZFF8"
         },
         "tests": []
     }
